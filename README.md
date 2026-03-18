@@ -3,7 +3,7 @@
 You can install the package via composer:
 
 ```bash
-composer require /steam-web-saloon
+composer require opblaasmaatje/steam-web-saloon
 ```
 
 ## Usage
