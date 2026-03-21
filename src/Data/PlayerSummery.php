@@ -15,6 +15,7 @@ class PlayerSummery extends Data
 {
     public function __construct(
         public readonly int $steamid,
+        public readonly string $personaname,
         public readonly Optional|CommunityVisibilityState $communityvisibilitystate,
         public readonly Optional|int $profilestate,
         public readonly Optional|bool $commentpermission,
