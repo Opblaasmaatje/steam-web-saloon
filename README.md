@@ -11,7 +11,7 @@ composer require opblaasmaatje/steam-web-saloon
 ```php
 use Opblaasmaatje\Steam\Facades\Steam;
 
-Steam::steamNews()->getPlayerSummaries([32132532314])->dto();
+Steam::user()->getPlayerSummaries([32132532314])->dto();
 
 ```
 

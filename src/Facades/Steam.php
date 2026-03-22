@@ -3,11 +3,11 @@
 namespace Opblaasmaatje\Steam\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Opblaasmaatje\Steam\Resources\SteamNews;
+use Opblaasmaatje\Steam\Resources\User;
 use Opblaasmaatje\Steam\SteamConnector;
 
 /**
- * @method static SteamNews steamNews()
+ * @method static User user()
  *
  * @see SteamConnector
  */

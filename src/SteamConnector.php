@@ -3,7 +3,7 @@
 namespace Opblaasmaatje\Steam;
 
 use Illuminate\Support\Facades\Config;
-use Opblaasmaatje\Steam\Resources\SteamNews;
+use Opblaasmaatje\Steam\Resources\User;
 use Saloon\Http\Connector;
 
 class SteamConnector extends Connector
@@ -14,9 +14,9 @@ class SteamConnector extends Connector
         //
     }
 
-    public function steamNews(): SteamNews
+    public function user(): User
     {
-        return new SteamNews($this);
+        return new User($this);
     }
 
     public function resolveBaseUrl(): string
