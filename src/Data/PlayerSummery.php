@@ -31,8 +31,8 @@ class PlayerSummery extends Data
         public readonly Optional|string $primaryclanid,
         #[WithCast(DateTimeInterfaceCast::class, 'U')]
         public readonly Carbon $timecreated,
-        public readonly Optional|string  $gameextrainfo,
-        public readonly Optional|string  $gameid,
+        public readonly Optional|string $gameextrainfo,
+        public readonly Optional|string $gameid,
         public readonly Optional|Country $loccountrycode,
     ) {
         //
